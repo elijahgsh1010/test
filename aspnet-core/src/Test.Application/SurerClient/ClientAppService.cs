@@ -7,6 +7,9 @@ using Volo.Abp.Domain.Repositories;
 
 namespace Test.SurerClient
 {
+    /// <summary>
+    /// test commit
+    /// </summary>
     public class ClientAppService : TestAppService, IClientAppService
     {
         private readonly IRepository<ClientGroup, Guid> _clientGroupRepository;

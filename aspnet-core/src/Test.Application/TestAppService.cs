@@ -13,6 +13,7 @@ namespace Test
         protected TestAppService()
         {
             LocalizationResource = typeof(TestResource);
+            // commit 10
         }
     }
 }

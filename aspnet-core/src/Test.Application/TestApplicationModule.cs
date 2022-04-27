@@ -37,6 +37,7 @@ namespace Test
         )]
     public class TestApplicationModule : AbpModule
     {
+        // commit 6
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             Configure<AbpAutoMapperOptions>(options =>

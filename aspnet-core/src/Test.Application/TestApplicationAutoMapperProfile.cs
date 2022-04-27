@@ -4,6 +4,7 @@ using Volo.Abp.AutoMapper;
 
 namespace Test
 {
+    // commit 8
     public class TestApplicationAutoMapperProfile : Profile
     {
         public TestApplicationAutoMapperProfile()
